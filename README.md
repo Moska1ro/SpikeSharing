@@ -13,6 +13,7 @@ RepoArch:.<br/>
 ├─utils     （依赖）<br/>
 │  └─__pycache__<br/>
 └─__pycache__（缓存）<br/>
+Pretrain param files(.pt) are aviliable at <a href="https://drive.google.com/drive/folders/1aQkOARb6OVNwQGO5KQzV-QJoNhTwKm96?usp=drive_link">here</a>
 
 cp：
 + Notes
