@@ -8,10 +8,15 @@
 
 RepoArch:.
 ├─remote_res（远程日志暂存）
+
 ├─results   （归档日志）
+
 ├─tmp       
+
 ├─utils     （依赖）
+
 │  └─__pycache__
+
 └─__pycache__（缓存）
 
 cp：
