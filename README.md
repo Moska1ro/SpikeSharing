@@ -13,12 +13,17 @@ RepoArch:.<br/>
 ├─utils     （依赖）<br/>
 │  └─__pycache__<br/>
 └─__pycache__（缓存）<br/>
+Pretrain param files(.pt) are aviliable at <a href="https://drive.google.com/drive/folders/1aQkOARb6OVNwQGO5KQzV-QJoNhTwKm96?usp=drive_link">here</a>
 
-cp：
+discuss results：
 + Notes
-  + // 笔记写在这里
+  + CVPR 22：Resnet-18 on CIFAR-10 acc 89%
+  + 如果单纯只进行通道剪枝，那其实不算SNN的工作，类似ann
+  + 结合step进行剪枝
 + Todos
-  + // Todo写在这里
+  + 训练可调节通道数的model
+  + 调研可用的遗传算法库
+  + 后续选做：神经元剪枝（动态阈值）、快速恢复等
 
 m：
 + Notes：
@@ -29,4 +34,5 @@ m：
   + 尝试小T训练的参数加载到大T中验证
   + 尝试借鉴其他的文章改进spike resnet
   + 构建单独计算适应度的代码
+  + sew-resnet实验，效果是否达到原文附近
 
