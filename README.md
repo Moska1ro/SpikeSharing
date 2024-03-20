@@ -30,9 +30,12 @@ m：
   + 提高直接训练的spike resnet acc，有不少文章借鉴，spike residual learning是一个研究方向
   + 当前的研究方向为剪枝，找到适合剪枝的网络是关键
   + 预加载大T训练出的参数，使用小T test，效果下降很少。可以用大T训练，小T剪枝/评估
+  + sew-resnet（NeurlPS 21）改进了三种函数，主要用于处理深层spiking resnet的梯度消失/爆炸问题
+    + sew-resnet18的效果与直接修改ReLU的resnet18效果类似，均为83上下
+    + 后续实验暂时不考虑继续，如有训练深层网络的需求再考虑
+  + spiking resnet-18 on CIFAR-10 SOTA:acc 90+
 + Todos：
   + 尝试小T训练的参数加载到大T中验证
   + 尝试借鉴其他的文章改进spike resnet
   + 构建单独计算适应度的代码
-  + sew-resnet实验，效果是否达到原文附近
 
